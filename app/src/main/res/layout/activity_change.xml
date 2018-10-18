@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".change">
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <EditText
+            android:id="@+id/val1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberSigned|numberDecimal"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/tasso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Tasso"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <TextView
+            android:id="@+id/val2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/swap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="swap"
+            android:text="swap" />
+
+        <EditText
+            android:id="@+id/percent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|numberSigned" />
+
+        <TextView
+            android:id="@+id/valPerc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
