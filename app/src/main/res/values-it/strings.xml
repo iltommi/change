@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cambio</string>
+    <string name="rate">Tasso</string>
+    <string name="value">Valore</string>
+    <string name="official">Ufficiale</string>
+    <string name="swap">Inverti</string>
+    <string name="real">Reale</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">change</string>
+    <string name="rate">Taux</string>
+    <string name="value">Valeur</string>
+    <string name="official">Officiel</string>
+    <string name="swap">Reverse</string>
+    <string name="real">Réel</string>
+</resources>
